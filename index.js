@@ -50,7 +50,7 @@ app.post('/', (req, res) => {
     console.log("================".green);
 
 
-    console.log(`Received POST request for "${req.body.name}"`.green);
+    console.log(`Received POST request for "${problem_complete_name}"`.green);
     console.log("Creating tests for problem...".green);
 
     req.body.tests.forEach((test, i) => {
