@@ -72,6 +72,6 @@ app.post('/', (req, res) => {
 
 process.on('SIGINT', () => {
     server.close(() => {
-    console.log('Happy coding! ⌨'.cyan);
+    console.log('\nHappy coding! ⌨'.cyan);
   })
 })
