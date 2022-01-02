@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "bin": {
+    "cf_fetch": "index.js"
+  },
+  "name": "codeforces-parser-app"
+}
