@@ -37,7 +37,7 @@ function copyTemplate(problem_name) {
         if (err){
             return console.log(err);
         }
-        console.log('Template copied!'.magenta);
+        console.log('Template copied!'.yellow);
     });
 }
 
@@ -72,6 +72,6 @@ app.post('/', (req, res) => {
 
 process.on('SIGINT', () => {
     server.close(() => {
-    console.log('Happy coding! ⌨');
+    console.log('Happy coding! ⌨'.cyan);
   })
 })
